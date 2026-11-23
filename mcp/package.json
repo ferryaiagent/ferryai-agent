@@ -1,0 +1,25 @@
+{
+  "name": "ferryai-mcp",
+  "version": "0.1.3",
+  "mcpName": "io.github.ferryaiagent/ferryai",
+  "description": "FerryAI MCP server: image and video generation tools for Claude Code, Codex and opencode",
+  "type": "module",
+  "bin": { "ferryai-mcp": "index.mjs" },
+  "engines": { "node": ">=18" },
+  "files": ["index.mjs"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "homepage": "https://ferryai.furrecast.com/agents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferryaiagent/ferryai-agent.git",
+    "directory": "mcp"
+  },
+  "keywords": ["ferryai", "mcp", "model-context-protocol", "image-generation", "video-generation"]
+}

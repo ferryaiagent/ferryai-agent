@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ferryaiagent/ferryai",
+  "title": "FerryAI Image & Video",
+  "description": "Generate images and videos from Claude Code, Codex, Cursor and other MCP clients.",
+  "websiteUrl": "https://ferryai.furrecast.com/agents",
+  "repository": {
+    "url": "https://github.com/ferryaiagent/ferryai-agent",
+    "source": "github"
+  },
+  "version": "0.1.3",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ferryai-mcp",
+      "version": "0.1.3",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "FERRYAI_API_KEY",
+          "description": "FerryAI API key used to bill the account balance.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "FERRYAI_BASE_URL",
+          "description": "Optional FerryAI API base URL override.",
+          "isRequired": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
+

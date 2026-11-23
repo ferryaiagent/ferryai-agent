@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ferryai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "ferryai-mcp"
+      ],
+      "env": {
+        "FERRYAI_API_KEY": "${user_config.ferryai_api_key}"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "ferryai-agent",
+  "description": "Image and video generation for coding agents.",
+  "owner": {
+    "name": "FerryAI"
+  },
+  "plugins": [
+    {
+      "name": "ferryai",
+      "source": "./plugins/ferryai"
+    }
+  ]
+}
