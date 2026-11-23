@@ -23,12 +23,7 @@ Uploads and generated files stay available for at least 7 days. Download anythin
 
 ## Install
 
-```bash
-curl -fsSL https://ferryai.furrecast.com/skill/install.sh | sh
-```
-
-Installs this file to `~/.claude/skills/ferryai/SKILL.md` and `~/.agents/skills/ferryai/SKILL.md`.
-Set `FERRYAI_API_KEY` to the key from https://ferryai.furrecast.com/keys.
+Read and follow https://ferryai.furrecast.com/install.md.
 
 ## Get a key
 
